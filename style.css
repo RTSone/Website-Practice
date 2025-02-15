@@ -1,0 +1,178 @@
+body {
+    background: lightgrey;
+  }
+  
+  #header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5px;
+    background-color: black;
+    color: lightgrey;
+    box-shadow: 0px 2px 7px grey;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+  }
+  
+  
+  
+  #header-img {
+  width: 80px;
+  max-width: 150px;
+  height: auto;
+  }
+  
+  /* Below will give Smaller size logo for mobile screens */
+  @media (max-with: 768px) {
+    #header-img {
+      width: 60px;
+    }
+  }
+  
+  #firstdiv {
+    display: flex;
+    align-items: center;
+  }
+  
+  #nav-bar {
+    top: 118;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  #body {
+    margin-top: 60px;
+  }
+  
+  #nav-bar ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 5;
+  }
+  
+  #nav-bar a {
+    text-decoration: none;
+    color: darkgrey;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+    #nav-bar a:hover {
+    color: gold; 
+  }
+  
+  
+  #nav-bar ul li {
+    margin: 0 5px;
+  }
+  
+  #section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 150px 0;
+    margin-bottom: 10;
+  }
+  
+  #email {
+    padding: 5px;
+    font-size: 0.8rem;
+    width: 300px;
+    border: 0.5px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  #submit {
+    padding: 5px 5px;
+    font-size: 0.8rempx;
+    color: lightgrey;
+    background-color: black;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #submit:hover {
+    background-color: brown;
+  }
+  
+  
+  #Features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 40 0;
+  }
+  
+  
+  #Demo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin:  10;
+  }
+  
+  #Pricing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20 0;
+  }
+  
+  .pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .pricing-box {
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 250px;
+  }
+  
+  .pricing-box h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .pricing-box p {
+    font-size: 1.2rem;
+    color: #555;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  
+  .pricing-box ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .pricing-box ul li {
+    margin: 5px 0;
+    color: #666;
+    font-size: 1rem;
+  }
+  .pricing-btn:hover {
+    color: brown;
+  }
+  
